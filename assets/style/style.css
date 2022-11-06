@@ -43,7 +43,7 @@ html {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    margin: 136px 480px;
+    margin: 136px 480px 28px 480px;
 }
  
 .article1 h1 {
@@ -64,6 +64,31 @@ html {
     color: #5B5F62;
 }
 
+.cities {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+}
 
+.cities a {
+    border: 1px solid #3D3D3D;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+#london {
+    background: #2D3134;
+    color: #FFFFFF;
+}
 
 
