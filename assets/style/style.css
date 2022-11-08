@@ -91,4 +91,84 @@ html {
     color: #FFFFFF;
 }
 
+.grid{
+    position: relative;
+}
 
+.grid p{
+    position: absolute;
+    display: flex;
+    top: 24px;
+    left: 24px;
+    font-family: inter;
+    width: 42px;
+    height: 24px;
+    background: #FFFFFF;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: all 0.2s ease 0s;
+}
+
+.grid h4{
+    position: absolute;
+    bottom: 48px;
+    left: 24px;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.grid h5{
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.4fr; 
+    grid-template-rows: 1fr 1fr; 
+    grid-template-areas: 
+        "first third third fourth fourth"
+        "second third third fifth sixth";
+    justify-content: center;
+    align-items: end;
+    row-gap: 10px;
+    column-gap: 30px;
+    margin: 51px 135px 0 135px;
+}
+
+.img1 {
+    grid-area: first;
+}
+
+.img2 {
+    grid-area: second;
+}
+
+.img3 {
+    grid-area: third;
+}
+
+.img4 {
+    grid-area: fourth;
+}
+
+.img5 {
+    grid-area: fifth;
+}
+
+.img6 {
+    grid-area: sixth;
+}
