@@ -172,3 +172,53 @@ html {
 .img6 {
     grid-area: sixth;
 }
+
+.footer {
+    padding: 100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-column {
+    margin-right: 230px;
+}
+
+.logo-column p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5B5F62;
+}
+
+.logo-column img {
+    margin-bottom: 18px;
+}
+
+.columns h4 {
+    margin-bottom: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2D3134;
+}
+
+.columns p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    color: #676A6C;
+}
